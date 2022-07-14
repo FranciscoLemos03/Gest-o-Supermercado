@@ -1,0 +1,14 @@
+Produto* lerBaseDeDadosP();
+void guardarBaseDeDadosP(Produto* );
+void libertarMemoriaP(Produto* );
+void adicionarP(Produto* );
+Produto* adicionarProduto(Produto* , Produto* );
+int obterIdAleatorioP(Produto* );
+bool existeProduto(Produto* , int );
+void editarP(Produto* );
+void editarProduto(Produto* , Produto* );
+Produto* encontrarProduto(Produto* , int );
+void removerP(Produto* );
+Produto* removerProduto(Produto* , int );
+void visualizarProduto(Produto* );
+void listarProdutos(Produto* );
